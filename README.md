@@ -50,7 +50,8 @@ HR departments and recruitment platforms can use deepfake detection to validate 
  - Dataset augmented by meta
 
 # Methodology
-****Extraction ********
+
+**Extraction**
  - Face extraction from the image 
 **Training**
  - Training the neural network 
