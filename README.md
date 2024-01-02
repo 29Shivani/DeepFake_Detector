@@ -13,49 +13,49 @@ The proliferation of deepfake technology has led to a growing threat of manipula
 Solution is to create a Deepfake Detection and Reporting System that leverages advanced machine learning models and PyTorch to accurately identify deepfake content. Additionally, we will integrate a reporting mechanism that allows users to report  directly to a government portal, such as the National Cyber Crime Reporting Portal. This holistic approach not only enables informed decision-making regarding media authenticity but also facilitates swift actions by authorities to mitigate the spread of fake content, thereby preserving trust in digital media.
 
 # Application Domain
-Social Media Platforms:
+**Social Media Platforms:**
 Social media platforms can use this technology to automatically identify and flag deepfake images to prevent the spread of misinformation and protect users from potentially harmful content.
 
-News and Journalism:
+**News and Journalism:**
 News organizations can integrate deepfake detection to verify the authenticity of images used in news articles and reports, ensuring the accuracy and credibility of their content.
 
-E-commerce and Online Marketplaces:
+**E-commerce and Online Marketplaces:**
 E-commerce websites can employ deepfake detection to verify product images, ensuring that sellers provide genuine representations of their products and maintaining trust among online shoppers.
 
-Cybersecurity and Fraud Prevention:
+**Cybersecurity and Fraud Prevention:**
 In the domain of cybersecurity, deepfake detection can be utilized to identify manipulated images in security surveillance systems, preventing unauthorized access and fraudulent activities.
 
-Human Resources and Recruitment:
+**Human Resources and Recruitment:**
 HR departments and recruitment platforms can use deepfake detection to validate the authenticity of candidate profile pictures and video interviews, ensuring a more secure and reliable hiring process.
 
 # Software Requirements
-Python: The code is written in Python, so you need a Python environment to run it.
+**Python:** The code is written in Python, so you need a Python environment to run it.
 
-PyTorch: This code uses PyTorch for deep learning. We  should have PyTorch installed, and it's recommended to have a GPU-enabled version.
+**PyTorch:** This code uses PyTorch for deep learning. We  should have PyTorch installed, and it's recommended to have a GPU-enabled version.
 
-Gradio: Gradio is a Python library for creating simple web interfaces for machine learning models. We need to install Gradio to run this code. You can install it using pip install gradio.
+**Gradio:** Gradio is a Python library for creating simple web interfaces for machine learning models. We need to install Gradio to run this code. You can install it using pip install gradio.
 
-Facenet_pytorch: This library is used for face detection. Install it using pip install facenet-pytorch.
+**Facenet_pytorch:** This library is used for face detection. Install it using pip install facenet-pytorch.
 
-OpenCV (cv2): OpenCV is used for image processing and visualization. You need to have OpenCV installed. Install it with pip install opencv-python.
+**OpenCV (cv2):** OpenCV is used for image processing and visualization. You need to have OpenCV installed. Install it with pip install opencv-python.
 
-Pillow (PIL): PIL is used for working with images. Install it with pip install pillow.
+**Pillow (PIL):** PIL is used for working with images. Install it with pip install pillow.
 
 # Dataset
-Faceforensics
+**Faceforensics**
  - Video dataset
-Fake Catcher
+**Fake Catcher**
  - Dataset of synthetic images
-Kaggle
+**Kaggle**
  - Dataset augmented by meta
 
 # Methodology
-Extraction 
+****Extraction ********
  - Face extraction from the image 
-Training
+**Training**
  - Training the neural network 
  - Convolutional Neural network
-Conversion
+**Conversion**
  - Masking using grad cam
 
 # RESULT
