@@ -14,18 +14,23 @@ Solution is to create a Deepfake Detection and Reporting System that leverages a
 
 # Application Domain
 **Social Media Platforms:**
+
 Social media platforms can use this technology to automatically identify and flag deepfake images to prevent the spread of misinformation and protect users from potentially harmful content.
 
 **News and Journalism:**
+
 News organizations can integrate deepfake detection to verify the authenticity of images used in news articles and reports, ensuring the accuracy and credibility of their content.
 
 **E-commerce and Online Marketplaces:**
+
 E-commerce websites can employ deepfake detection to verify product images, ensuring that sellers provide genuine representations of their products and maintaining trust among online shoppers.
 
 **Cybersecurity and Fraud Prevention:**
+
 In the domain of cybersecurity, deepfake detection can be utilized to identify manipulated images in security surveillance systems, preventing unauthorized access and fraudulent activities.
 
 **Human Resources and Recruitment:**
+
 HR departments and recruitment platforms can use deepfake detection to validate the authenticity of candidate profile pictures and video interviews, ensuring a more secure and reliable hiring process.
 
 # Software Requirements
@@ -43,21 +48,33 @@ HR departments and recruitment platforms can use deepfake detection to validate 
 
 # Dataset
 **Faceforensics**
+
  - Video dataset
+   
 **Fake Catcher**
+
  - Dataset of synthetic images
+   
 **Kaggle**
+
  - Dataset augmented by meta
+   
 
 # Methodology
 
 **Extraction**
- - Face extraction from the image 
+
+ - Face extraction from the image
+   
 **Training**
+
  - Training the neural network 
  - Convolutional Neural network
+   
 **Conversion**
+
  - Masking using grad cam
+   
 
 # RESULT
 ![image](https://github.com/29Shivani/DeepFake_Detector/assets/74962213/5d42db78-fe5b-4015-aeec-f423e4072945)
