@@ -1,5 +1,8 @@
 # DeepFake_Detector
 
+# RESEARCH PAPER LINK:
+https://ijsrem.com/download/enhancing-deepfake-detection-leveraging-mtcnn-and-inception-resnet-v1/
+
 # Introduction
 In our ever-evolving digital landscape, the rise of deepfake technology has raised significant concerns surrounding media authenticity. Deepfake, generated through artificial intelligence, blur the line between real and manipulated content, posing substantial threats to society. To address this pressing issue, we embark on the creation of a Deepfake Detection and Reporting System,PyTorch, MTCNN, and InceptionResnetV1 for Deepfake detection. Beyond identification, our system incorporates a pivotal reporting mechanism, enabling users to report detected fake content to a government portal, such as the National Cyber Crime Reporting Portal.
 
